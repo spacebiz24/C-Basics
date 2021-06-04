@@ -5,7 +5,7 @@ void main()
 {
     int num, onum, rnum = 0;
     printf("Enter the number: ");
-    scanf("%d\n", &num);
+    scanf("%d", &num);
     onum = num;
     while (onum != 0)
     {

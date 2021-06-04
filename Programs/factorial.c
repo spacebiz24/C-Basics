@@ -5,7 +5,7 @@ void main()
 {
     int num, n, fact = 1;
     printf("Enter number for factorial: \n");
-    scanf("%d\n", &num);
+    scanf("%d", &num);
     n = num;
     for (n; n >= 1; n--)
         fact = fact * n;

@@ -5,7 +5,7 @@ void main()
 {
     int num, denum, rem, num1, num2, gcd, lcm;
     printf("Enter the numbers you want to find HCF: \n");
-    scanf("%d\n%d\n", &num1, &num2);
+    scanf("%d\n%d", &num1, &num2);
     if (num1 > num2)
     {
         num = num1;
