@@ -15,5 +15,6 @@ root:
     if (count <= num)
     {
         goto root;
+        printf("Fin\n");
     }
 }
