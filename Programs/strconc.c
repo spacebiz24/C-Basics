@@ -7,9 +7,9 @@ void main()
     char str1[100], str2[100], str[100];
     int len1, len2;
     printf("Enter first string:\n");
-    scanf("%s", &str1);
+    gets(str1);
     printf("Enter second string:\n");
-    scanf("%s", &str2);
+    gets(str2);
     len1 = strlen(str1);
     len2 = strlen(str2);
     for (int i = 0; i < len1; i++)

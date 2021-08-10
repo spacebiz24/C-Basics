@@ -15,8 +15,8 @@ void main()
 
         if (arr[i] == ele)
         {
-            break;
             flag = 1;
+            break;
         }
     if (flag == 0)
         printf("Element not found\n");
