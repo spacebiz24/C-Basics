@@ -21,7 +21,7 @@ void main()
         for (int j = 0; j < b; j++)
             arr_t[j][i] = arr[i][j];
     printf("Transpose of Matrix:\n");
-    if (a!=b)
+    if (a != b)
     {
         int temp = a;
         a = b;
