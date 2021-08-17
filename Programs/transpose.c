@@ -21,6 +21,12 @@ void main()
         for (int j = 0; j < b; j++)
             arr_t[j][i] = arr[i][j];
     printf("Transpose of array:\n");
+    if (a!=b)
+    {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
     for (int i = 0; i < a; i++)
     {
         for (int j = 0; j < b; j++)
