@@ -6,11 +6,11 @@ void main()
     int arr[100][100], arr_t[100][100], a, b;
     printf("Enter order of Matrix:\n");
     scanf("%d %d", &a, &b);
-    printf("Enter array elements:\n");
+    printf("Enter Matrix elements:\n");
     for (int i = 0; i < a; i++)
         for (int j = 0; j < b; j++)
             scanf("%d", &arr[i][j]);
-    printf("Original array:\n");
+    printf("Original Matrix:\n");
     for (int i = 0; i < a; i++)
     {
         for (int j = 0; j < b; j++)
@@ -20,7 +20,7 @@ void main()
     for (int i = 0; i < a; i++)
         for (int j = 0; j < b; j++)
             arr_t[j][i] = arr[i][j];
-    printf("Transpose of array:\n");
+    printf("Transpose of Matrix:\n");
     if (a!=b)
     {
         int temp = a;
